@@ -1,0 +1,186 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+	background-color: #05386B !important;
+	padding: 10px 20px 10px 20px;
+}
+
+.navbar-brand, .nav-link {
+	color: #EDF5E1 !important;
+}
+
+.navbar-brand {
+	width: 25vw;
+	font-size: 25px;
+	text-shadow: 5px 2px black;
+}
+
+.brand {
+	font-size: 45px;
+
+}
+
+.intro {
+	height: 80vh;
+	background: url(../images/background.jpg) no-repeat center center fixed #589f99;
+	color: white;
+	display: grid;
+	grid-template-rows: 2fr 1fr 1fr 1fr 1fr	1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding: 30px 20px 0 20px;
+}
+
+.intro-topic {
+	color: #05386B;
+	font-size: 1.5em;
+}
+
+.intro h1 {
+	color: #05386B;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.intro-item1 {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 9;
+}
+
+.intro-item2 {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 9;
+}
+
+.intro-item3 {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 9;
+}
+
+.intro-item4 {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 4;
+	grid-column-end: 9;
+}
+
+.intro-item5 {
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 5;
+	grid-column-end: 9;
+}
+
+.intro-item6 {
+	grid-row-start: 6;
+	grid-row-end: 7;
+	grid-column-start: 1;
+	grid-column-end: 9;
+	align-self: end;
+	justify-self: center;
+	font-size: 50px;
+}
+
+.intro-item6 a {
+	color: black;
+}
+
+h1 {
+	margin: 20px 0 20px 0;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+.section {
+	padding: 10px 50px 10px 50px;
+}
+
+
+#samples {
+	text-align: center;
+}
+
+.sample-category {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+article {
+	background-color: #cdd6d4;
+	min-height: 200px;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 20px;
+	border: 1px solid gray;
+}
+
+article a {
+  color: black;
+}
+
+article a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.title {
+	background-color: #05386B;
+	font-size: 50px;
+	color: white;
+	margin: 10px;
+	padding: 40px 20px 20px 20px;
+	border-radius: 20px;
+}
+
+#about {
+	background-color: #379683;
+	padding: 40px 80px 40px 80px;
+}
+
+#about-content {
+	background-color: white;
+	text-align: justify;
+	border-radius: 50px;
+	padding: 20px 40px 20px 40px;
+}
+
+img {
+  margin-left: 30px;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact i {
+	font-size: 50px;
+	color: #379683;
+}
+
+footer {
+	background-color: #05386B;
+	color: white;
+	font-size: 1.25em;
+	padding: 30px;
+}
+
+footer .social {
+	font-size: 2em;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #379683;
+}
